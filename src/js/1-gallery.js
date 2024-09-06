@@ -84,13 +84,6 @@ function genImageTable(images) {
   }).join('');
 }
 
-container.addEventListener('click', onImageClick);
-
-function onImageClick(event) {
-  event.preventDefault(); 
-
- }
-
 
 
 import SimpleLightbox from "simplelightbox";
